@@ -1,0 +1,23 @@
+$darkBlue: #15263e;
+$lightText: #ffffff;
+$fiolet: #6700a2;
+$lightGrey: #dcdcde;
+$darkGrey: #222222;
+$pink: #fd01bb;
+
+.center {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+
+a {
+	color: $lightText;
+}
+
+$cubic: cubic-bezier(.17,.67,.42,1.9);
+$gradient: 	 -webkit-gradient(linear,
+			left bottom, right top,
+			from($fiolet),
+			to($pink));
